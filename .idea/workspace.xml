@@ -11,11 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af95bc5b-5e6c-45c8-9935-63f09d4551dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/personal-page/src/components/Profile.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal-page/src/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-page/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-page/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/components/SideMenuItem.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/components/SideMenuItem.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +23,8 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Svelte Component" />
         <option value="JavaScript File" />
+        <option value="Svelte Component" />
       </list>
     </option>
   </component>
@@ -71,7 +67,7 @@
       <updated>1593881324668</updated>
       <workItem from="1593881325965" duration="3944000" />
       <workItem from="1593958006025" duration="586000" />
-      <workItem from="1593958606021" duration="2827000" />
+      <workItem from="1593958606021" duration="6226000" />
     </task>
     <task id="LOCAL-00001" summary="added svelte project">
       <created>1593958821640</created>
@@ -80,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593958821640</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added first components - profile part">
+      <created>1593962622732</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593962622732</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,16 +103,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added svelte project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added svelte project" />
+    <MESSAGE value="added first components - profile part" />
+    <option name="LAST_COMMIT_MESSAGE" value="added first components - profile part" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593958887570">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593958887570" />
+    <state x="481" y="43" key="RollbackChangesDialog" timestamp="1593966232701">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="481" y="43" key="RollbackChangesDialog/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593966232701" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1593958591898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593958591898" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1593962821904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593962821904" />
   </component>
 </project>

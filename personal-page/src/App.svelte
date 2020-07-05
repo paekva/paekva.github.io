@@ -1,19 +1,26 @@
 <script>
 	import Profile from "./components/Profile.svelte";
 	import * as constant from './constants';
+	import SideMenu from "./components/SideMenu.svelte";
+
+
+	let selectedItem = 0;
+	const itemClickHandler = (id) => selectedItem = id;
 </script>
 
 <div class="container">
 	<div class="left">
-		<div class="profile">
-			<Profile
-					description={constant.profileDescription}
-					name={constant.profileName}
-					picUrl={constant.profilePic}
-			/>
-		</div>
+		<Profile
+				description={constant.profileDescription}
+				name={constant.profileName}
+				picUrl={constant.profilePic}
+		/>
+		<SideMenu
+				selectedItem={selectedItem}
+				itemClickHandler={itemClickHandler}
+		/>
 	</div>
-	<div class="right">right panel</div>
+	<div class="right">{constant.menuItems.find(el => el.id === selectedItem).label}</div>
 </div>
 
 <style>
@@ -29,21 +36,12 @@
 	}
 
 	.left {
-		padding: 10px;
 		flex: 1;
 		border-right: 1px solid #000;
 	}
 
 	.right {
 		padding: 10px;
-		flex: 6;
-	}
-
-	.profile{
-		flex: 1;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
+		flex: 5;
 	}
 </style>
