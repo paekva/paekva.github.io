@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af95bc5b-5e6c-45c8-9935-63f09d4551dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/personal-page/src/components/SideMenuItem.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/components/SideMenuItem.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal-page/src/menuComponents/ListOfSkills.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593962622732</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added side menu">
+      <created>1593966278451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593966278451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,13 +114,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added svelte project" />
     <MESSAGE value="added first components - profile part" />
-    <option name="LAST_COMMIT_MESSAGE" value="added first components - profile part" />
+    <MESSAGE value="added side menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="added side menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593958887570">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593958887570" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593966834996">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593966834996" />
     <state x="481" y="43" key="RollbackChangesDialog" timestamp="1593966232701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

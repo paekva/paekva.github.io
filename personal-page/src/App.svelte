@@ -2,6 +2,7 @@
 	import Profile from "./components/Profile.svelte";
 	import * as constant from './constants';
 	import SideMenu from "./components/SideMenu.svelte";
+	import ListOfSkills from "./menuComponents/ListOfSkills.svelte";
 
 
 	let selectedItem = 0;
@@ -20,7 +21,12 @@
 				itemClickHandler={itemClickHandler}
 		/>
 	</div>
-	<div class="right">{constant.menuItems.find(el => el.id === selectedItem).label}</div>
+	<div class="right">
+		{#if selectedItem === 1}
+			<ListOfSkills title={constant.education.title} items={constant.education.items}/>
+			<ListOfSkills title={constant.experience.title} items={constant.experience.items}/>
+		{/if}
+	</div>
 </div>
 
 <style>
@@ -41,7 +47,6 @@
 	}
 
 	.right {
-		padding: 10px;
 		flex: 5;
 	}
 </style>
