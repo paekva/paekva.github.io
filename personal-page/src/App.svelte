@@ -1,30 +1,49 @@
 <script>
-	export let name;
+	import Profile from "./components/Profile.svelte";
+	import * as constant from './constants';
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<div class="container">
+	<div class="left">
+		<div class="profile">
+			<Profile
+					description={constant.profileDescription}
+					name={constant.profileName}
+					picUrl={constant.profilePic}
+			/>
+		</div>
+	</div>
+	<div class="right">right panel</div>
+</div>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+	body {
+		margin: 0;
+		padding: 0;
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
+	.container {
+		height: 100%;
+		display: flex;
+		flex-direction: row;
 	}
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+	.left {
+		padding: 10px;
+		flex: 1;
+		border-right: 1px solid #000;
+	}
+
+	.right {
+		padding: 10px;
+		flex: 6;
+	}
+
+	.profile{
+		flex: 1;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 	}
 </style>
