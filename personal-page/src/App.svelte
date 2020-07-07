@@ -25,6 +25,7 @@
 		{#if selectedItem === 1}
 			<ListOfSkills title={constant.education.title} items={constant.education.items}/>
 			<ListOfSkills title={constant.experience.title} items={constant.experience.items}/>
+			<ListOfSkills title={constant.interests.title} items={constant.interests.items}/>
 		{/if}
 	</div>
 </div>

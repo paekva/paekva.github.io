@@ -18,13 +18,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         padding: 10px;
     }
 
     .picture {
         border: 1px solid #666666;
-        height: 192px;
+        height: 150px;
+        width: 150px;
         border-radius: 50%;
     }
 

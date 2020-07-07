@@ -11,7 +11,7 @@
                 <div class="item">
                     <div class="header">
                         <div class="label">{item.label}</div>
-                        <div class="date">{item.date}</div>
+                        {#if item.date !== undefined} <div class="date">{item.date}</div> {/if}
                     </div>
 
                     <div class="description">{item.description}</div>

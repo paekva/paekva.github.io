@@ -11,10 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af95bc5b-5e6c-45c8-9935-63f09d4551dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/personal-page/src/menuComponents/ListOfSkills.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-page/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/components/Profile.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/components/Profile.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-page/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/menuComponents/ListOfSkills.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/menuComponents/ListOfSkills.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,9 @@
       <workItem from="1593881325965" duration="3944000" />
       <workItem from="1593958006025" duration="586000" />
       <workItem from="1593958606021" duration="6226000" />
+      <workItem from="1594025143941" duration="1644000" />
+      <workItem from="1594054093867" duration="197000" />
+      <workItem from="1594136194842" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="added svelte project">
       <created>1593958821640</created>
@@ -93,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593966278451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added first theme - education">
+      <created>1593967990890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593967990890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +126,8 @@
     <MESSAGE value="added svelte project" />
     <MESSAGE value="added first components - profile part" />
     <MESSAGE value="added side menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="added side menu" />
+    <MESSAGE value="added first theme - education" />
+    <option name="LAST_COMMIT_MESSAGE" value="added first theme - education" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593958887570">
@@ -134,9 +146,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593958591898" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1593962821904">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1593967996337">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593962821904" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593967996337" />
   </component>
 </project>
