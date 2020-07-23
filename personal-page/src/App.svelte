@@ -4,29 +4,16 @@
 	import SideMenu from "./components/SideMenu.svelte";
 	import ListOfSkills from "./menuComponents/ListOfSkills.svelte";
 
-
 	let selectedItem = 0;
 	const itemClickHandler = (id) => selectedItem = id;
 </script>
 
 <div class="container">
 	<div class="left">
-		<Profile
-				description={constant.profileDescription}
-				name={constant.profileName}
-				picUrl={constant.profilePic}
-		/>
-		<SideMenu
-				selectedItem={selectedItem}
-				itemClickHandler={itemClickHandler}
-		/>
+
 	</div>
 	<div class="right">
-		{#if selectedItem === 1}
-			<ListOfSkills title={constant.education.title} items={constant.education.items}/>
-			<ListOfSkills title={constant.experience.title} items={constant.experience.items}/>
-			<ListOfSkills title={constant.interests.title} items={constant.interests.items}/>
-		{/if}
+
 	</div>
 </div>
 
@@ -39,15 +26,41 @@
 	.container {
 		height: 100%;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+		background: yellow;
+		position: relative;
 	}
 
 	.left {
-		flex: 1;
-		border-right: 1px solid #000;
+		top: 0;
+		right: 0;
+		position: absolute;
+
+		border: 14rem solid transparent;
+		border-top: 14rem solid crimson;
+		border-right: 14rem solid crimson;
+
+		transition: border-width 1s;
+	}
+
+	.left:hover {
+		border-width: 16rem;
 	}
 
 	.right {
-		flex: 5;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+		border: 14rem solid transparent;
+		border-bottom: 14rem solid darkmagenta;
+		border-left: 14rem solid darkmagenta;
+
+		transition: border-width 1s;
 	}
+
+	.right:hover {
+		border-width: 16rem;
+	}
+
 </style>

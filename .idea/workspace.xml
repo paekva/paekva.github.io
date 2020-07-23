@@ -13,9 +13,6 @@
     <list default="true" id="af95bc5b-5e6c-45c8-9935-63f09d4551dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-page/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-page/src/components/Profile.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/components/Profile.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-page/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-page/src/menuComponents/ListOfSkills.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/menuComponents/ListOfSkills.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eEKU47BdRKNLc8jDKTuJU0aNVR" />
@@ -75,6 +77,8 @@
       <workItem from="1594025143941" duration="1644000" />
       <workItem from="1594054093867" duration="197000" />
       <workItem from="1594136194842" duration="412000" />
+      <workItem from="1595435358589" duration="1589000" />
+      <workItem from="1595518188552" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="added svelte project">
       <created>1593958821640</created>
