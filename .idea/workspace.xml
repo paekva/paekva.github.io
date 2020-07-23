@@ -11,8 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af95bc5b-5e6c-45c8-9935-63f09d4551dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/personal-page/src/Main.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal-page/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/personal-page/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/components/Profile.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/components/SideMenu.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/components/SideMenuItem.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-page/src/menuComponents/ListOfSkills.svelte" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +83,7 @@
       <workItem from="1594054093867" duration="197000" />
       <workItem from="1594136194842" duration="412000" />
       <workItem from="1595435358589" duration="1589000" />
-      <workItem from="1595518188552" duration="2313000" />
+      <workItem from="1595518188552" duration="5695000" />
     </task>
     <task id="LOCAL-00001" summary="added svelte project">
       <created>1593958821640</created>
@@ -154,5 +159,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.-374.1920.1040@0.0.1280.680" timestamp="1593967996337" />
+    <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1595521529980">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1595521529980" />
   </component>
 </project>
